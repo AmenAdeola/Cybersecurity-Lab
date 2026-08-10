@@ -1,4 +1,4 @@
-# Botium toys s=Security Audit Project
+# Botium toys Security Audit Project
 
 ## Audit Scope
 
