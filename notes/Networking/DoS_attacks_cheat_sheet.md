@@ -9,3 +9,18 @@
 |HTTP flood| HTTP/HTTPS | Sends excessive web requests to a web server| Website slowdown or outage|
 |DNS Amplification | DNS | Uses small spoofed requests that generate much larger DNS responses | Amplifies traffic and overwhelms the victim|
 |Smurf Attack | ICMP | Sends ICMP requests to broadcast addresses causing many systems to responds | Large spikes of network traffic overwhelm the victim|
+
+
+
+
+# DoS attacks to remember 
+
+| Attacks type | Remember |
+|--------------|----------|
+| Ping flood | Too many pings|
+| SYN Flood | Half-open TCP connections|
+|UDP Flood | Too many UDP packets |
+| DNS Flood | Too many DNS requests |
+| HTTP Flood | Too many website requests |
+| DNS Amplification | Small request -> huge response|
+| Smurf attack | Many ICMP replies at once|
