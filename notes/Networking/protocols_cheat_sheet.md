@@ -2,7 +2,7 @@
 # Networking Protocols cheat Sheet
 
 | Protocol  | Purpose | Easy way to remember |
-
+|
 |-----------|----------|---------------------|
 | DNS       | Translates domain names into IP addresses| Internet phone book|
 | IP        | Provides addressing and routing| Delivers packets|
