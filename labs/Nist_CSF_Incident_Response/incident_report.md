@@ -36,4 +36,12 @@ An improperly configured firewall allowed excessive ICMP traffic into the intern
 -  Stopped non-critical services
 -  Restored critical network services
 
+## Security Enhancements
+
+-  ICMP rate limiting
+-  Firewall hardening
+-  source IP verification
+-  IDS/IPS implementation
+-  Enhanced network monitoring
+
 - ## 
