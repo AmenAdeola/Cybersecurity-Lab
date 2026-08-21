@@ -37,4 +37,4 @@ The coursera exemplar classifies the incident as an ICMP Flood DDoS attack. Howe
 -  IDS?IPS deployment
 -  Enhanced network monitoring
 -  Firewall hardening
--  
+  
