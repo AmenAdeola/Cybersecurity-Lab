@@ -83,6 +83,14 @@ Ctrl + W | Delete previous word
 Backspace| Delete previous character
 
 
+# Nano Editor Shortcuts
+
+Shortcut | Purpose | 
+--------|---------|
+Ctrl + X | Exit Nano
+Y | Save changes
+Enter | Confirm file name
+Ctrl + O | write file (save)
 
 
 
