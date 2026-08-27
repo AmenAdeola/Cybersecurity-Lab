@@ -20,7 +20,7 @@ apt list --intalled | Display installed packages
 apt search <packages> | search available packages|
 sudo apt install <packages> | install a package|
 sudo apt remove <packages>| remove a package|
-suricata|IDS/IPS
+suricata|IDS/IPS detect and prevent network threats
 
 
 # Linux commands cheat sheet
