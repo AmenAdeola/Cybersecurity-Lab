@@ -41,12 +41,49 @@ echo |dislay text output |echo "hello"
 expr | Perform calculations| expr 32 - 8
 clear | clear terminal screen |clear 
 
+
 # Searching & Filtering
 
 Commands | Purpose | Example Result|
 --------|---------|----------------|
 grep | search text in files |grep error logs.txt
 grep -c | count matching lines | grep -c warning logs.txt
+grep -i | ignore case |grep -i error logs.txt
+grep -ic | count matches ignoring case| grep =ic warning logs.txt
+` |`|Pile output to another command|
+wc -l| count lines |ls |grep access | wc -l
+find | search files and directories |find /home/analyst/projects
+find -name | search file names (case-sensitive)| find . -name "*log*"
+find -iname |search file names (case-isensitive)|find . -iname "*log*"
+find -mtime| search by modification days|find . -mtime -3
+find -mmin | search by modification minutes |find . -mmin -30
+
+# File & directory management
+
+Commands | Purpose | Example Result|
+--------|---------|----------------|
+mkdir | Create a directory |mkdir logs
+rmdir | Remove an empty directory | rmdir temp
+mv | move or rename file /directory |mv Q3patches.txt reports/
+rm | delete a file |rm tempnotes.txt|
+touch| create an empty file |touch tasks.txt
+nano | edit a file | nano tasks.txt
+
+
+# Commands Line shortcuts
+
+Shortcut | Purpose | 
+--------|---------|
+Ctrl + C| Cancel current command
+Ctrl + U |Delete everything before cursor
+Ctrl + K | Delete everything after cursor
+Ctrl + W | Delete previous word
+Backspace| Delete previous character
+
+
+
+
+
 
 
 
