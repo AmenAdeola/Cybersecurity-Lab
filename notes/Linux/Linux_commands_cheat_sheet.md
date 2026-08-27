@@ -6,6 +6,7 @@ apt     | Displays package manager help and available commands | APT usage infor
 apt --version | displays the installed APT version | apt 2.2.4 |
 sudo |run command with administrator privileges |
 apt install | Install a package/softaware|
+apt --installed | displya installed packages|
 apt remove | Remove a package software|
 apt search | Search for available packages|
 apt update | Update package lists |
@@ -14,11 +15,12 @@ suricata | Run the suricata application
 sudo apt install tcpdump | Install tcpdump|
 tcpdump | Capture and analyze network traffic|
 sudo apt remove suricata | Uniistall Suricata |
-tcpdumo | Network traffic capture tool|
+tcpdumo | Network traffic capture tool, package capture & Traffic analysis|
 apt list --intalled | Display installed packages
 apt search <packages> | search available packages|
 sudo apt install <packages> | install a package|
 sudo apt remove <packages>| remove a package|
+suricata|IDS/IPS
 
 
 # Linux commands cheat sheet
