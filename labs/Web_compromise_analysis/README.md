@@ -1,4 +1,4 @@
-# Web Compromise Analysos
+# Web Compromise Analysis
 
 ## Objective
 
