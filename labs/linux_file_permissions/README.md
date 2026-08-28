@@ -1,1 +1,2 @@
 
+In this activity, I reviewed file and directory permissions in a Linux environment using ls -la and chmod. I identified permissions that did not align with organizational security requirements and modified them to remove unauthorized access. I updated permissions for standard files, hidden files, and directories while appliying the principle of least privilege. The actions helped protect sensitive information and improve overall system security
