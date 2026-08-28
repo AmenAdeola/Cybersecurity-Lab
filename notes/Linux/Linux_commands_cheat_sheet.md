@@ -93,6 +93,63 @@ Enter | Confirm file name
 Ctrl + O | write file (save)
 
 
+# Linux Permissions cheat sheet
+
+Permission Types
+
+Permission | Symbol | Files | directories
+-----------|--------|-------|------------|
+Read | r | Read file contents | View directory contents
+Write| w | Modify file contents | create/delete files
+Execute| x | Execute program | Enter directory
+
+# Ownership Types
+
+Owner Type | Symbol | Description
+-----------|--------|-------------
+User | u | File owner
+Group | g | Owner's group
+Other | o | All other users
+
+# Permissions String Structure
+Example: drwxrwxrwx
+
+Position | Meaning 
+---------|----------|
+1 | File type (d=directory, -= regular file
+2-4 | Users permissions |
+5-7 | Group permissions
+8-10 | Other permissions
+
+example: -rw-r-----
+interpretation: 
+File
+User: Read + Write
+Group: Read only
+Other: No access
+
+# Permission Inspection commands
+
+Commands | Purpose | Example|
+---------|---------|--------|
+ls -l | display permissions, owner, group, size, date | ls -l
+ls -a | display hidden files | ls -a
+ls -ls| dispaly hidden files with permission | ls -la
+stat | afficher les metadonnees detailles d<un fichier | stat rapport.txt
+
+
+# Modifications des permissions (chmod)
+
+Command | purpose | example
+--------|---------|--------
+chmod | Change permissions | chmod g-w file.txt
+chmod u+r | Add read permission to user | chmod u+r file.txt
+chmod u+w | add write permission to user | chmod u+w file.txt
+chmod u+x | add execution permission to user | chmod u+x script.sh
+chmod g+r | add read permission to group | chmod g+r fichier.txt
+chmod g
+
+# chmod
 
 
 
