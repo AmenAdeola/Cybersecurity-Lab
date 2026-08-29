@@ -109,18 +109,6 @@ ls -ls| dispaly hidden files with permission | ls -la
 stat | afficher les metadonnees detailles d<un fichier | stat rapport.txt
 
 
-# Modifications des permissions (chmod)
-
-Command | purpose | example
---------|---------|--------
-chmod | Change permissions | chmod g-w file.txt
-chmod u+r | Add read permission to user | chmod u+r file.txt
-chmod u+w | add write permission to user | chmod u+w file.txt
-chmod u+x | add execution permission to user | chmod u+x script.sh
-chmod g+r | add read permission to group | chmod g+r fichier.txt
-chmod g
-
-# chmod
 
 
 
