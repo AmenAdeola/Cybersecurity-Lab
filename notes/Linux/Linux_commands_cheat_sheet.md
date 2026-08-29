@@ -43,21 +43,6 @@ echo |dislay text output |echo "hello"
 expr | Perform calculations| expr 32 - 8
 clear | clear terminal screen |clear 
 
-
-
-
-# File & directory management
-
-Commands | Purpose | Example Result|
---------|---------|----------------|
-mkdir | Create a directory |mkdir logs
-rmdir | Remove an empty directory | rmdir temp
-mv | move or rename file /directory |mv Q3patches.txt reports/
-rm | delete a file |rm tempnotes.txt|
-touch| create an empty file |touch tasks.txt
-nano | edit a file | nano tasks.txt
-
-
 # Commands Line shortcuts
 
 Shortcut | Purpose | 
