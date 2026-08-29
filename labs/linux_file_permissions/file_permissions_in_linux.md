@@ -16,7 +16,7 @@ Example from file:
 project_k.txt 
 -rw-rw-rw-
 
-#Describe the permissions string
+# Describe the permissions string
 
 Example: -rw-rw-rw-
 Description:
