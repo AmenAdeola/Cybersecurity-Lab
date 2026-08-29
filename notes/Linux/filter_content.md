@@ -1,4 +1,4 @@
-# Searching & Filtering
+# Filter content commands
 
 Commands | Purpose | Example Result|
 --------|---------|----------------|
