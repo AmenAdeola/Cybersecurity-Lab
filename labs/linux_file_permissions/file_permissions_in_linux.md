@@ -1,6 +1,6 @@
 # Project Description
 
-In this activity, I reviewed file and directory permissions in a linux envrionment and verified that access controls aligned with organizational  security policies. Using Linux commands, I inspected permissions, identified excessive access rigths, and modified permission to support the principle of least privilege. This activity strenghtened my ability to manage access control and  secure sensitive files and directories.
+In this activity, I reviewed file and directory permissions in a linux environment and verified that access controls aligned with organizational  security policies. Using Linux commands, I inspected permissions, identified excessive access rigths, and modified permission to support the principle of least privilege. This activity strenghtened my ability to manage access control and  secure sensitive files and directories.
 
 # Check file and directory details
 
