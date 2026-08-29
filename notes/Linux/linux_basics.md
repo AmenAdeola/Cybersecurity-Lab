@@ -18,3 +18,12 @@ PowerShell | windows command shell |
 Terminal = Application window
 
 Shell = command interpreter
+
+
+# Shell Basics
+
+Command | Purpose  | Example
+--------|----------|--------|
+Echo | Display text | echo "Hello Linux"
+Expr | Perform arithmetic | expr 10 + 5 
+clear | Clear terminal screen | clear
