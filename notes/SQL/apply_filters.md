@@ -1,7 +1,7 @@
 WHERE and the other SQL keywords and characters that follow are used when apply ing filters to SQL queries.
 Commands|Purposes | Examples
 --------|---------|---------
-AND | Specifies that both conditions must be met simultaneously in a filter that contains two conditions | WHERE region = 5 AND country = 'USA': Returns all records with a value in the region column of 5 and a value in the country column of 'USA'
+AND | Specifies that both conditions must be met simultaneously in a filter that contains two conditions | WHERE region = 5 AND country = 'USA': Returns all records with a value in the region column of 5 and a value in the country column of 'USA' 
 BETWEEN | Filters for numbers or dates within a range; BETWEEN is followed by the first value to include in the range, the AND operator, and the last value to include in the range | WHERE hiredate BETWEEN '2002-01-01' AND '2003-01-01': Returns all records with a value in the hiredate column that is between '2002-01-01' and '2003-01-01' 
 = (equal to) | Used in filters to return only the records that contain a value in a specified column that is equal to a particular value| WHERE birthdate = '1980-05-15': Returns all records with a value in the birthdate column that equals '1980-05-15'
 > (greater than)| Used in filters to return only the records that contain a value in a specified column that is greater than a particular value | WHERE birthdate > '1970-01-01': Returns all records with a value in the birthdate column that is greater than '1970-01-01'
