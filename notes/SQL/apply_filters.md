@@ -1,100 +1,21 @@
-
+WHERE and the other SQL keywords and characters that follow are used when apply ing filters to SQL queries.
 Commands|Purposes | Examples
 --------|---------|---------
-WHERE and the other SQL keywords and characters that follow are used when applying filters to SQL queries.
-AND
-Specifies that both conditions must be met simultaneously in a filter that contains two conditions
-
-WHERE region = 5 AND country = 'USA'
-Returns all records with a value in the region column of 5 and a value in the country column of 'USA'
-BETWEEN
-Filters for numbers or dates within a range; BETWEEN is followed by the first value to include in the range, the AND operator, and the last value to include in the range 
-
-WHERE hiredate BETWEEN '2002-01-01' AND '2003-01-01'
-Returns all records with a value in the hiredate column that is between '2002-01-01' and '2003-01-01'
-= (equal to)
-Used in filters to return only the records that contain a value in a specified column that is equal to a particular value
-
-WHERE birthdate = '1980-05-15'
-Returns all records with a value in the birthdate column that equals '1980-05-15'
-> (greater than)
-Used in filters to return only the records that contain a value in a specified column that is greater than a particular value
-
-WHERE birthdate > '1970-01-01'
-Returns all records with a value in the birthdate column that is greater than '1970-01-01'
->= (greater than or equal to)
-Used in filters to return only the records that contain a value in a specified column that is greater than or equal to a particular value
-
-WHERE birthdate >= '1965-06-30'
-Returns all records with a value in the birthdate column that is greater than or equal to '1965-06-30'
-< (less than)
-Used in filters to return only the records that contain a value in a specified column that is less than a particular value 
-
-WHERE date < '2023-01-31'
-Returns all records with a value in the date column that is less than '2023-01-31'
-<= (less than or equal to)
-Used in filters to return only the records that contain a value in a specified column that is less than or equal to a particular value
-
-WHERE date <= '2020-12-31'
-Returns all records with a value in the date column that is less than or equal to '2020-12-31'
-LIKE
-Used with  WHERE to search for a pattern in a column
-
-WHERE title LIKE 'IT%'
-Returns all records with a value in the title column that matches the pattern of 'IT%'
-
-WHERE state LIKE 'N_'
-Returns all records with a value in the state column that matches the pattern of 'N_' 
-NOT
-Negates a condition 
-
-WHERE NOT country = 'Mexico'
-Returns all records with a value in the country column that is not 'Mexico'
-<> (not equal to)
-Used in filters to return only the records that contain a value in a specified column that is not equal to a particular value; != also used as an operator for not equal to
-
-WHERE date <> '2023-02-28'
+AND | Specifies that both conditions must be met simultaneously in a filter that contains two conditions | WHERE region = 5 AND country = 'USA': Returns all records with a value in the region column of 5 and a value in the country column of 'USA'
+BETWEEN | Filters for numbers or dates within a range; BETWEEN is followed by the first value to include in the range, the AND operator, and the last value to include in the range | WHERE hiredate BETWEEN '2002-01-01' AND '2003-01-01': Returns all records with a value in the hiredate column that is between '2002-01-01' and '2003-01-01' 
+= (equal to) | Used in filters to return only the records that contain a value in a specified column that is equal to a particular value| WHERE birthdate = '1980-05-15': Returns all records with a value in the birthdate column that equals '1980-05-15'
+> (greater than)| Used in filters to return only the records that contain a value in a specified column that is greater than a particular value | WHERE birthdate > '1970-01-01': Returns all records with a value in the birthdate column that is greater than '1970-01-01'
+>= (greater than or equal to)| Used in filters to return only the records that contain a value in a specified column that is greater than or equal to a particular value | WHERE birthdate >= '1965-06-30': Returns all records with a value in the birthdate column that is greater than or equal to '1965-06-30'
+>< (less than) | Used in filters to return only the records that contain a value in a specified column that is less than a particular value | WHERE date < '2023-01-31': Returns all records with a value in the date column that is less than '2023-01-31'
+<= (less than or equal to)| Used in filters to return only the records that contain a value in a specified column that is less than or equal to a particular value| WHERE date <= '2020-12-31': Returns all records with a value in the date column that is less than or equal to '2020-12-31'
+LIKE | Used with  WHERE to search for a pattern in a column | WHERE title LIKE 'IT%': Returns all records with a value in the title column that matches the pattern of 'IT%'; WHERE state LIKE 'N_':Returns all records with a value in the state column that matches the pattern of 'N_' 
+NOT | Negates a condition | WHERE NOT country = 'Mexico': Returns all records with a value in the country column that is not 'Mexico'
+<> (not equal to)| Used in filters to return only the records that contain a value in a specified column that is not equal to a particular value;|WHERE date <> '2023-02-28'
 Returns all records with a value in the date column that is not equal to '2023-02-28'
-
-!= (not equal to)
-Used in filters to return only the records that contain a value in a specified column that is not equal to a particular value; <> also used as an operator for not equal to
-
-	WHERE date != '2023-05-14'
-Returns all records with a value in the date column that is not equal to '2023-05-14'
-OR
-Specifies that either condition can be met in a filter that contains two conditions
-
-WHERE country = 'Canada' OR country = 'USA'
-Returns all records with a value in the  country column of either 'Canada' or 'USA'
-% (percentage sign)
-Substitutes for any number of other characters; used as a wildcard in a pattern that follows LIKE
-
-'a%'
-Represents a pattern consisting of the letter 'a' followed by zero or more characters
-
-'%a'
-Represents a pattern consisting of zero or more characters followed by the letter 'a' 
-
-'%a%'
+!= (not equal to)| Used in filters to return only the records that contain a value in a specified column that is not equal to a particular value; <> also used as an operator for not equal to| WHERE date != '2023-05-14': Returns all records with a value in the date column that is not equal to '2023-05-14'
+OR| Specifies that either condition can be met in a filter that contains two conditions | WHERE country = 'Canada' OR country = 'USA': Returns all records with a value in the country column of either 'Canada' or 'USA'
+% (percentage sign)| Substitutes for any number of other characters; used as a wildcard in a pattern that follows LIKE; | 'a%': Represents a pattern consisting of the letter 'a' followed by zero or more characters; '%a': Represents a pattern consisting of zero or more characters followed by the letter 'a' ; '%a%'
 Represents a pattern consisting of the letter 'a' surrounded by zero or more characters on each side
-_ (underscore)
-Substitutes for one other character; used as a wildcard in a pattern that follows LIKE
-
-
-'a_'
-Represents a pattern consisting of the letter 'a' followed by one character
-
-'a__'
-Represents a pattern consisting of the letter 'a' followed by two characters
-
-'_a'
-Represents a pattern consisting of one character followed by the letter 'a'
-
-'_a_'
-Represents a pattern consisting of the letter 'a' surrounded by one character on each side
-WHERE
-Indicates the condition for a filter; must be used to begin a filter
-
-WHERE title = 'IT Staff'
-Returns all records that contain 'IT Staff' in the title column; WHERE is placed before the condition of title = 'IT Staff' to create the filter
+_ (underscore)| Substitutes for one other character; used as a wildcard in a pattern that follows LIKE| 'a_': Represents a pattern consisting of the letter 'a' followed by one character; 'a__': Represents a pattern consisting of the letter 'a' followed by two characters; '_a': Represents a pattern consisting of one character followed by the letter 'a'; '_a_': Represents a pattern consisting of the letter 'a' surrounded by one character on each side
+WHERE: Indicates the condition for a filter; must be used to begin a filter |WHERE title = 'IT Staff': Returns all records that contain 'IT Staff' in the title column; WHERE is placed before the condition of title = 'IT Staff' to create the filter
 
