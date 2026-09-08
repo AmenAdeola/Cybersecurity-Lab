@@ -32,3 +32,21 @@ Accounting | Logging and monitoring activity
 Event Log | Record of events
 Audit Trail | Historical record of actions
 User Activity Monitoring | Tracking user behaviour
+
+## Authentication & Authorization 
+Concept | Purpose|
+--------|--------|
+Username| Identification|
+Password |Authentication
+MFA | Authentication
+OAuth | Authorization framework
+SSO | Single Signe-On
+Digital Certificate | Identity verification in PKI
+
+## Hashing
+Concept | Purpose|
+--------|--------|
+Hashing | Verify data integrity
+SHA-256 |Generate a hash value
+Hash Comparison | Detect modifications
+Integrity | Ensure data has not changed
