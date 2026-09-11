@@ -10,9 +10,27 @@ An attacker could use the information stored on the USB drive to perform social 
 
 # Risk analysis
 
-Organisation can reduce the risk of USB baiting attacks through technical, operational, and managerial controls. 
+Organization can reduce the risk of USB baiting attacks through technical, operational, and managerial controls. 
 Employees should receive security awareness training that teaches them not to connect unknown USB devices to organization systems. Endpoint protection tools, device control policies, and antivirus software can help block malicious USB devices.
 Additionally, organizations can restrict USB usage, implement least privilege principles, and require suspicious devices to be analyzed in an isolated virtual environment before being accessed.
 
+# Security Controls
 
+Control Type | Example|
+-------------|--------|
+Technical | Endpoint protection, antivirus, USB, device restrictions
+Operational | Security awareness training
+Administrative | Acceptable use policies
+Preventive | Disable unauthorized USB devices
+Detective | Endpoint monitoring
+Corrective | Incident response procedures
+
+# Skills Demonstrated
+
+.  Threat Analysis
+.  Attack surface Assessment
+.  Attack Vector Identification
+.  Social Engineering Awareness
+.  Risk Assessment
+.  Security Control Selection
 
