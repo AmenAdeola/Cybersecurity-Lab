@@ -9,7 +9,9 @@ Analyze a web compromise incident involving a brute force attack, website deface
 -  Brute force Attack Analysis
 -  DNS Analysis
 -  HTTP analysis
--  Malware Investigation
+-  Malware Investigation/ distribution
+-  Malicious JavaScript Injection
+-  Account compromise
 -  Incident documentation
 -  Security Hardening Recommendation
 
