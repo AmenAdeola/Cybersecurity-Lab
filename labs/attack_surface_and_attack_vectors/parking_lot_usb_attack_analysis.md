@@ -27,10 +27,10 @@ Corrective | Incident response procedures
 
 # Skills Demonstrated
 
-.  Threat Analysis
-.  Attack surface Assessment
-.  Attack Vector Identification
-.  Social Engineering Awareness
-.  Risk Assessment
-.  Security Control Selection
+-  Threat Analysis
+-  Attack surface Assessment
+-  Attack Vector Identification
+-  cial Engineering Awareness
+-  Risk Assessment 
+-  Security Control Selection
 
