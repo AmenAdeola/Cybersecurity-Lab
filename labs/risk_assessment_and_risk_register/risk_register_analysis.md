@@ -23,7 +23,7 @@ Key characteristics include:
 
 Risk | Likelihood | Severity | Priority|
 -----|------------|----------|---------|
-Business Email Compromise| 2|2\4
+Business Email Compromise| 2|2|4
 Compromised User Database |2|3|6
 Financial Records Leak |3|3|9
 Theft |1|3|3
