@@ -10,10 +10,10 @@ Pretext | A fabricated scenario used to gain trust
 
 Stage | Description|
 ------|------------|
-1. Prepare | Gather information about the target
-2. Establish Trust | Build credibility and rapport
-3. Use Persuasion Tactics | Manipulate the target into taking action
-4. Disconnect | End communication and avoid detection
+Prepare | Gather information about the target
+Establish Trust | Build credibility and rapport
+Use Persuasion Tactics | Manipulate the target into taking action
+Disconnect | End communication and avoid detection
 
 # Common Social Engineering Attacks
 
