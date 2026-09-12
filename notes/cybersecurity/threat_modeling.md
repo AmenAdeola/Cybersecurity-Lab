@@ -2,7 +2,7 @@
 
 Steps | Purposes | Key Questions|
 ------|----------|---------|
-1.  Define the Scope | Determine the system, application, process, or environment that will be assessed| What are we assessing?
+Define the Scope | Determine the system, application, process, or environment that will be assessed| What are we assessing?
 2.  Identify Threat | Identify potential threat actors, threat sources, and threat events | what threats exits?
 3.  Characterize the Environment |Understand assets, users, technologies, architecture, data flows, and existing controls| what assets, users, systems, and controls are involved?|
 4.  Analyze threat | Evaluate how identified threats could impact assets and business operations |How could these threats affect the organization?
