@@ -27,4 +27,18 @@ Time | Event|
 1:15 PM | Unauthorized executable files were created
 1:20 PM | The IDS generated an alert|
 
+# The 5 W's
+
+| The 5 W's | Information|
+------------|------------|
+Who caused the incident?| An employee opened a suspicious password-protected attachment. The malicious file appears to have originated from an unknown threat actor.
+What happened? | A suspicious file created unauthorized executable files on the employee's workstation. VirusTotal analysis identified the file as malicious.
+When did the incident occur? | The sequence of events occurred between 1:11 PM and 1:20 PM. 
+Where did the incident happen? | The activity occurred on an employee workstation with the organization's environment.
+Why did the incident happen? | The incident occurred after the employee downloaded and opened a suspicious email attachment. The attachment delivered a malicious  executable file.
+
+### SHA-256
+
+''' text
+54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b
 
