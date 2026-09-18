@@ -33,6 +33,15 @@ Time | Event|
 -  SHA-256 hash analysis
 -  Threat intelligence sources
 
+# Actions Taken
+-  Reviewed the incident timeline
+-  submitted the SHA-256 hash to VirusTotal
+-  Reviewed vendor detection results
+-  Examined file metadata
+-  Identified behavioural findings
+-  Classified indicators using the Pyramid of Pain
+-  Documented the findings
+
 # The 5 W's
 
 | The 5 W's | Information|
