@@ -27,6 +27,12 @@ Time | Event|
 1:15 PM | Unauthorized executable files were created
 1:20 PM | The IDS generated an alert|
 
+# Tools Used
+-  VirusTotal
+-  IDS alert information
+-  SHA-256 hash analysis
+-  Threat intelligence sources
+
 # The 5 W's
 
 | The 5 W's | Information|
@@ -39,6 +45,11 @@ Why did the incident happen? | The incident occurred after the employee download
 
 ### SHA-256
 
-''' text
 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b
+
+# Additional Notes
+The high detection ratio and consistent malicious classifications indicate that the file should be treated as malicious.
+
+The affected workstation should be isolated, and the identified indicators should be reviewed across the environment to determine whether other systems were affected.
+
 
