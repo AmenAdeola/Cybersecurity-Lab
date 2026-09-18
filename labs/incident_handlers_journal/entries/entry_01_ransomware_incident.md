@@ -24,4 +24,5 @@ Additional notes | Information
 Any additional thoughts, questions, or findings| This incident demonstrates the importance of security awareness training and phishing prevention measures. It also highlights the need for regular backups, endpoint protection, and incident response procedures to minimize the impact of ransomware attacks
 
 
+
 # Entry: 2
