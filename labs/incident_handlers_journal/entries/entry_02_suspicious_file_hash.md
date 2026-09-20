@@ -1,4 +1,6 @@
-# Entry: 2: Suspicious File Hash Investigation
+# Entry: 2
+
+# Suspicious File Hash Investigation
 
 ## Entry Information
 
@@ -62,3 +64,5 @@ The high detection ratio and consistent malicious classifications indicate that 
 The affected workstation should be isolated, and the identified indicators should be reviewed across the environment to determine whether other systems were affected.
 
 
+
+# Phishing Playbook Escalation
