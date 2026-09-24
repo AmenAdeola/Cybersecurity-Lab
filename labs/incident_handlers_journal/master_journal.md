@@ -1,4 +1,4 @@
-# Incident Handler<s Journal
+# Incident Handler's Journal
 
 ## Entry 1 - Healthcare Clinic Ransomware Incident
 
