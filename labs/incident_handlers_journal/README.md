@@ -113,7 +113,5 @@ Security Lessons
 -   Final incident reports preserve findings and support organizational improvement
 -   Post-incident activity should result in updates to controls, procedures, playbooks, and development practices
 
-Detailed Entry: entries/entry_o3_final_report_review.md
+Detailed Entry: entries/entry_03_final_report_review.md
 
-
-A 
