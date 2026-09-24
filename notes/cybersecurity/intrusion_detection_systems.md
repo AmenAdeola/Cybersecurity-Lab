@@ -119,3 +119,51 @@ NIDS|Primary function|
 Signature-Based Analysis|Uses detection rules and signatures
 Network Monitoring| Captures and analyzes traffic
 Alerting |Generates alerts when rules match
+
+# Suricata Rule Components
+
+Component | Purpose|
+----------|--------|
+Action| Determine what happens when rule matches
+Header| Define traffic to inspect|
+Rule Options| Define matching conditions
+
+## Rule Structure
+1.  Action
+2.  Header
+3.  Rule Options
+
+### Common Rule Actions
+
+Action | Description|
+-------|------------|
+alert | Generate an alert
+pass| Allow Traffic
+drop | Block traffic and alert
+reject | Block traffic and send reset
+
+### Important Suricata Fields
+
+Field | Purpose|
+------|--------|
+msg|alert message
+sid|Signature ID
+rev|Revision Number
+content|Text pattern
+flow|Traffic direction
+http_method|HTTP method inspection
+
+### Suricata Logs
+Log File|Purpose|
+--------|-------|
+fast.log|Quick alert summaries
+eve.json|Details structured events
+
+### jq Commands
+
+Command|Purpose|
+-------|-------|
+jq . file.json| Pretty-print JSON
+jq . file.json(|)less |Read output page-by-page
+jq -c '[fields]' file.json | Extract fields
+jq 'select(.flow_id==X)' file.json|Filter by flow ID
