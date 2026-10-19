@@ -17,5 +17,6 @@ This Python cybersecurity lab focuses on remove deauthorized IP addresses from a
 - Python 3 
 - Jupyter Notebook
 
- ## Outcome  
+ ## Outcome
+ 
  The activity demonstrates how Python can automate repetitive security tasks and process security-related data. 
