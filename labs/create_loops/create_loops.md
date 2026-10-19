@@ -6,7 +6,7 @@ Automate repeated connection messages, IP allow-list checks, and ID generation.
 
 ## Core Code and Explanation  
 
-Script:
+```python 
 for i in range(3):     
   print("Connection could not be established.")  
 for ip in ip_addresses:     
@@ -19,7 +19,7 @@ i = 5000 
 while i <= 5150:     
   print(i)     
     i += 5 
-    
+     ```
   Key concepts: for, while, range(), counters, membership, and break.  
     
   ## Key Takeaways  
