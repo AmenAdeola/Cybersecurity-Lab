@@ -14,7 +14,7 @@ login_status = False
   print(type(username_list))
   print(login_attempts <= max_logins)
   print(type(login_status))
-```
+``` 
 Key concepts: assignment, reassignment, strings, lists, integers, booleans, `type()`, and comparisons.  
 
 ## Key Takeaways  
