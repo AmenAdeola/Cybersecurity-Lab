@@ -7,9 +7,9 @@ Analyze failed-login data with built-ins, parameters, return values, and ratios.
 
 script:
 
-failed_login_list = [85, 88, 90, 91, 92, 99, 101, 105, 108, 119, 223, 264] 
-  print(sorted(failed_login_list)) print(max(failed_login_list))  
-def analyze_logins(username, current_day_logins, average_day_logins):     
+failed_login_list = [85, 88, 90, 91, 92, 99, 101, 105, 108, 119, 223, 264]
+  print(sorted(failed_login_list)) print(max(failed_login_list))
+ def analyze_logins(username, current_day_logins, average_day_logins):     
   login_ratio = current_day_logins / average_day_logins     
   return login_ratio  
   
