@@ -7,10 +7,11 @@ Create reusable alert and list-processing functions.  
 ## Core Code and Explanation  
 ```python 
 def alert():
-     for i in range(3):
+    for i in range(3):
       print("Potential security issue. Investigate further.")
 
 alert()
+
 def list_to_string():
     username_list = ["elarson", "bmoreno", "tshah"]
     result = ""
