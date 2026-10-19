@@ -5,7 +5,7 @@
 Remove deauthorized IP addresses from an allow-list file.  
 
 ## Core Code and Explanation  
-  script:
+  ```python 
 def update_file(import_file, remove_list):     
   with open(import_file, "r") as file:         
     ip_addresses = file.read()      
@@ -16,7 +16,7 @@ for element in remove_list: 
 ip_addresses = "\n".join(ip_addresses)      
 with open(import_file, "w") as file:         
   file.write(ip_addresses)   
-
+```
 Workflow: read → split → loop → check → remove → join → write → verify.  
 
 ## Key Takeaways  
