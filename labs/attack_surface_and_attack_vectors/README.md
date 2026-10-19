@@ -11,7 +11,7 @@ A suspicious USB drive discovered in a parking lot was examined from both a defe
 -  Attack Vector Identification
 -  Attacker Mindset
 -  Social Engineering Analysis
--  Risk Assessment
+-  Risk Assessment & mitigation
 -  Security Awareness
 -  USB Security
 -  Threat Identification
@@ -26,6 +26,16 @@ A suspicious USB drive discovered in a parking lot was examined from both a defe
 -  Risk Mitigation
 -  Security Controls
 
+
+## Tools and Technologies  
+
+- Threat analysis 
+- Security controls
+  
 ## Outcome
 
-This project demonstrates how seemingly harmless information stored on removable media can create security risks and how attackers may use both malware and social engineering techniques to compromise an organization.
+This project demonstrates how seemingly harmless information stored on removable media can create security risks and how attackers may use both malware and social engineering techniques to compromise an organization. 
+
+
+
+  ## Outcome  The activity demonstrates how physical media and exposed information can support malware delivery and social engineering. 
