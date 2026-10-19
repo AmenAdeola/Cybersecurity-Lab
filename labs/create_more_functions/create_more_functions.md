@@ -15,7 +15,8 @@ def analyze_logins(username, current_day_logins, average_day_logins):
 
 login_analysis = analyze_logins("ejones", 9, 3)
 if login_analysis >= 3:
-   print("Alert: login activity requires investigation") ```
+   print("Alert: login activity requires investigation")
+```
 
 The values 223 and 264 are notable outliers relative to the remaining list.  
 
