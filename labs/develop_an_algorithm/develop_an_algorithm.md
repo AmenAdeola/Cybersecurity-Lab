@@ -10,14 +10,14 @@ Verify approved usernames and assigned device IDs.  
 def login(username, device_id):
      approved_users = ["elarson", "bmoreno", "sgilmore"]
      approved_devices = ["8rp2k75", "h1o5so1", "4n482ts"]
-      if username in approved_users:
+     if username in approved_users:
          index = approved_users.index(username)
          if device_id == approved_devices[index]:
              print("Approved user and assigned device")
          else:
              print("Approved user, but device is not assigned to this user")
      else:
-        print("User is not approved")
+         print("User is not approved")
 ```
 Synchronized lists use the same index to associate related usernames and devices.
 
