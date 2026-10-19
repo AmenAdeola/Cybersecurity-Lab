@@ -10,7 +10,7 @@ Examples of corrections: 
 
 ```python 
 for i in range(10):
- print("Connection cannot be established")
+  print("Connection cannot be established")
 ```
 Add missing commas between list items, closing parentheses in function calls, valid variable names, `==` for comparison, valid list indices, colons after `with` or `if`, and call `.split()` on the string object.  
 
