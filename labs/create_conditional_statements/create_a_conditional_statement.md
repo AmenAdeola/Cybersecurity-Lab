@@ -5,7 +5,7 @@
 Automate decisions about operating-system updates, user approval, and login timing.  
 
 ## Core Code and Explanation  
-script:
+```python 
 if system == "OS 2": 
   print("no update needed") 
 elif system == "OS 1" or system == "OS 3":     
@@ -14,7 +14,7 @@ if username in approved_list and organization_hours: 
   print("Approved login") 
 else:    
   print("Username not approved or login occurred outside organization hours") 
-  
+  ```
   Key concepts: if, elif, else, and, or, and in. 
   
 ## Key Takeaways  
