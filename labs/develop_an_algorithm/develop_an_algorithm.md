@@ -16,7 +16,8 @@ def login(username, device_id):
              print("Approved user and assigned device")
          else:
              print("Approved user, but device is not assigned to this user")
-     else:         print("User is not approved")
+     else:
+        print("User is not approved")
 ```
 Synchronized lists use the same index to associate related usernames and devices.
 
