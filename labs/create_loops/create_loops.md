@@ -19,8 +19,8 @@ i = 5000 
 while i <= 5150:     
   print(i)     
     i += 5 
-     ```
-  Key concepts: for, while, range(), counters, membership, and break.  
+```
+Key concepts: for, while, range(), counters, membership, and break.  
     
   ## Key Takeaways  
  The lab combines foundational Python syntax with a security scenario. Keep the code, observed output, answers to reflection questions, and a short security relevance section in the GitHub file. 
