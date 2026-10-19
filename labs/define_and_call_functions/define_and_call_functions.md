@@ -23,7 +23,9 @@ list_to_string()
 ```
 Functions reduce duplication, improve organization, and support automation.
 
-## Key Takeaways  The lab combines foundational Python syntax with a security scenario. Keep the code, observed output, answers to reflection questions, and a short security relevance section in the GitHub file.  
+## Key Takeaways 
+
+The lab combines foundational Python syntax with a security scenario. Keep the code, observed output, answers to reflection questions, and a short security relevance section in the GitHub file.  
 
 
 ## Skills Demonstrated  
