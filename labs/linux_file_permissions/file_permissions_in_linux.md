@@ -1,76 +1,51 @@
+# Linux File Permissions
+
 # Project Description
 
 In this activity, I reviewed file and directory permissions in a linux environment and verified that access controls aligned with organizational  security policies. Using Linux commands, I inspected permissions, identified excessive access rigths, and modified permission to support the principle of least privilege. This activity strenghtened my ability to manage access control and  secure sensitive files and directories.
 
-# Check file and directory details
+## Objective
 
-Command: ls -la
+Inspect hidden files, interpret permission strings, and change permissions according to requirements.
 
-Description:
-I used  the ls -la command to display all files directories, including hidden files, and review their permissions, ownership, and associated groups. 
+## Inspect Permissions  ```bash pwd ls -la ```  `ls -la` shows hidden files, file types, permissions, owner, group, size, and modification information.
 
-This command displayed the file permission strings for files in the projects directory, including project_k.txt, project_m.txt, project_r.txt, project_t.txt,.project_x.txt, and the drafts directory.
+## Interpret the Permission String
 
-Example from file:
+Example: `-rw-r-----`
+- First character: file type
+- Characters 2–4: user permissions
+- Characters 5–7: group permissions
+- Characters 8–10: other permissions
+- `r`: read, `w`: write, `x`: execute, `-`: permission absent
 
-project_k.txt 
--rw-rw-rw-
+## Modify Permissions
+```bash
+chmod u=rw, g=r, o= project_k.txt
+chmod 640 project_k.txt
+chmod o-r hidden_file.txt
+```
+Symbolic mode is useful when the required changes are expressed by user, group, and other. Numeric mode is useful for concise repeatable settings.
 
-# Describe the permissions string
+## Directory Permissions
 
-Example: -rw-rw-rw-
-Description:
+For a directory, read lists names, write permits creating or deleting entries, and execute permits entering/traversing the directory.
 
-The first character (-) indicates that the item ia a regular file
+## Security Relevance
 
-characters 2-4 (rw-) represent the user permissions, allowing the owner to read and write.
+Least privilege reduces unauthorized disclosure, modification, and execution. Permission changes should be validated with `ls -la` after each update.
 
-characters 5-7 (rw-) represent the group permissions, allowing members of the group to read and write.
+## Skills Demonstrated
 
-Characters 8-10 (rw-) represent permissions for others, allowing all other users to read and write.
-
-The permission string indicates that the file can be read modified by owner, the group and all other users.
-
-# Change file permissions
-
-project_k.txt
-
-user = read, write
-group = read, write
-other = read, write
-
-organization don't allow others = write
-
-command: chmod o-w project_k.txt
-
-I used chmod o-w project_k.txt to remove write permissions for other users while preserving existing user and group permissions.
-
-This change reduced unnecessary access and aligned permissions with the principle of least privilege
-
-# Change file permissions on a hidden file
-
-folder: .project_x.txt
-current permissions:
-user = read, write
-group = write
-other = none
-
-scenario says: They do not want anyone to have write access to this project, but the user and group should have read access.
-command: chmod u-w, g-w, g+r .project_x.txt
-Description: I modified the permissions of the hidden file. .project_x.txt so that the owner retained read and write permissions while the group received read-only access. Others users were given no permissions.
-
-# Change directory permissions
-current situation: 
-Drafts
-user = read, write, execute
-Group = execute
-Other = none
-Scenario: Only researcher2 should have access.
-command: chmod g-x drafts
-Description: I used chmod g-x drafts to remove execute permissions for the group. This restricted access to the drafts directory so that only the owner could access its contents
+- Linux
+- File permissions
+- Least privilege
+- User and group permissions
+- Command-line administration 
 
 # Summary
 
 In this activity, I reviewed Linux file and directory permissions and identified permissions that did not comply with organizational security requirements. Using ls -la and chmod, I inspected permissions and modified access rights to enforce the principle of least privilege.
 
 I removed unnecessary write and execute permissions, secured hidden files, and restricted access to sensitive directories. These actions reduced the risk of unauthorized access and improved the overall security of the file system
+
