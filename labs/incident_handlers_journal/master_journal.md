@@ -1,27 +1,47 @@
-# Incident Handler's Journal
+# Incident Handler’s Journal  
 
-## Entry 1 - Healthcare Clinic Ransomware Incident
+## Objective
 
-### Summary:
+Maintain structured, dated, and numbered entries covering both incident investigations and cybersecurity tools.
 
-A healthcare clinic experienced a ransomware attack delivered through a phishing email containing a malicious attachment. Critical files and patient records were encrypted, disruption business operations.
+## Recommended Structure
+```text 
+incident_handlers_journal/
+ ├── README.md
+ ├── master_journal.md
+ ├── entries/
+ │   ├── entry_01_healthcare_ransomware.md
+ │   ├── entry_02_suspicious_file_hash.md
+ │   ├── entry_03_wireshark_packet_analysis.md
+ │   └── entry_04_suricata_alert_analysis.md
+ └── investigations/
+     └── virustotal_ioc_analysis.md
+```
 
-Reference:
-See: entries/entry_01_ransomware_incident.md
+## Entry 1 — Healthcare Ransomware
 
-------------------
+Document a phishing-delivered ransomware incident using the 5 W’s: who, what, when, where, and why. Include business impact, actions, and lessons learned.
 
-## Entry 2 - Suspicious File Hash Investigation
 
-### Summary:
+## Entry 2 — Suspicious File Hash Investigation
 
-A suspicious executable file created on an employee workstation was investigated using its SHA-256 hash. VirusTotal results indicated that the file was malicious and associated with Trojan and backdoor behaviour.
+Document the alert timeline, initial SHA-256, VirusTotal findings, phishing playbook decision, actions taken, and escalation. Link to the detailed VirusTotal technical investigation.
 
-### Detailed Entry
 
-See: entries/entry_02_suspicious_file_hash.md
+## Entry 3 — Wireshark 
 
-### Technical Investigation
+Document the tool used, filters applied, protocols inspected, evidence gathered, and what the packet analysis demonstrated.
 
-see: investigations/virustotal_ioc_analysis.md
+## Entry 4 — Suricata
 
+Document the custom rule, Suricata command, log files, alert message, JSON parsing, flow correlation, and learning outcome.
+
+
+## Skills Demonstrated
+
+- Incident documentation
+- 5 W’s
+- Alert triage
+- IOC analysis
+- Escalation
+- Security reporting 
