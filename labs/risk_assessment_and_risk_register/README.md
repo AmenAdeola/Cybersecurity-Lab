@@ -32,7 +32,9 @@ Priority Score = Likelihood X Severity
 -  Likelihood
 -  Severity
 -  Priority
+-  NIST risk concepts
+-  Risk matrix 
 
 ## Outcome
 
-This project demonstrated how organizations evaluate and prioritize cyber security risks to focus security resources on the most significant threats.
+This project demonstrated how organizations evaluate and prioritize cyber security risks to focus security resources on the most significant threats. Risks are also documented consistently so the organization can prioritize treatment decisions. 
