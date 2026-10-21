@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project applies the PASTA (Process of Attack Simulation and Threat Analysis) threat modeling framework to a new mobile marketplace application designed for sneaker buyers and sellers.
+This project applies the PASTA (Process of Attack Simulation and Threat Analysis) threat modeling framework to a new mobile marketplace application designed for sneaker buyers and sellers. It applies all seven PASTA stages to a mobile sneaker marketplace application. 
 
 The assessment follows all seven PASTA stages to identify business objectives, evaluate technical components, analyze threats and vulnerabilities, model attacks and recommend security controls that reduce risk before deployment.
 
-## Skills Modeling
+## Skills Modeling/Demonstrated
 -  Threat Modeling
 -  PASTA Framework
 -  Threat Analysis
@@ -25,7 +25,7 @@ The assessment follows all seven PASTA stages to identify business objectives, e
 -  Attack Modeling
 -  Risk Analysis and Impact
 
-## Technologies Analyzed
+## Tools and Technologies Analyzed
 -  API
 -  PKI
 -  AES Encryption
