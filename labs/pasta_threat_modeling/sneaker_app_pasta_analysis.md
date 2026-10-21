@@ -17,9 +17,10 @@ The application will:
 # Stage I - Define Business and Security Objectives
 
 ## Business Objectives
--  Provide a secure marketplace where buyers and sellers can connect.
--  Protect customer information and ensure user privacy.
--  Provide secure payment processing and prevent payment fraud.
+- Connect buyers and sellers securely.
+- Protect privacy and account information.
+- Secure payment processing.
+- Maintain availability and trust. 
 -----------
 
 # Stage II - Define the Technical Scope
@@ -30,7 +31,9 @@ The SQL database should be prioritized because it stores user accounts, inventor
 ## Technologies Used
 -  API
 -  Public Key Infrastructure (PKI)
+-  mobile application
 -  SHA-256
+-  encryption
 -  SQL Database
 
 -------------------
@@ -38,9 +41,9 @@ The SQL database should be prioritized because it stores user accounts, inventor
 # Stage III - Decompose the Application
 
 ## Data Flow Summary
-'''text
-User->Product Search Returned->Database->Inventory Results Returned
-'''
+```text
+User → Application/API → Search or transaction process → Database → Response
+```
 
 ## Assets Identified
 -  Customer Data
@@ -48,6 +51,8 @@ User->Product Search Returned->Database->Inventory Results Returned
 -  Product Listings
 -  Payment Information
 -  Seller Information
+-  tokens
+-  messages
 
 ----------------------
 
@@ -56,7 +61,7 @@ User->Product Search Returned->Database->Inventory Results Returned
 ## Threat 1
 
 ### SQL injection
-An attacker could submit malicious SQL commands through application inputs to access, modify, or  delete information stored in the database
+An attacker could submit malicious SQL commands through application inputs to access, modify, or delete information stored in the database
 
 ### Threat type:  External Threat
 
@@ -94,9 +99,13 @@ User  Data
 '''
 
 ## Attack Path 2
-... text User data->Session Hijacking->weak login credentials
-'''
-
+```text
+User data
+ ├── SQL injection
+ │   └── Lack of prepared statements
+ └── Session hijacking
+     └── Weak authentication or token protection
+```
 The attack tree demonstrates how attackers could compromises user information by exploiting weaknesses in the application and database environment.
 
 --------------------
@@ -139,3 +148,4 @@ Limit access to sensitive data and administrative function.
 -  Attack Surface Analysis
 -  Security Control Selection
 -  Risk Mitigation
+
