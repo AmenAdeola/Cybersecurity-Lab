@@ -8,14 +8,16 @@ A vulnerability assessment was performed using concepts from NIST SP 800-30 Rev 
 ## Skills Demonstrated
 -  Vulnerability Assessment
 -  Risk Assessment
--  Threat Modeling
+-  Threat analysis and Modeling 
 -  Risk Analysis
 -  Security Controls
 -  Remediation Planning
 -  NIST SP 800-30
 -  Database Security
 
-## Key Concepts
+## Tools and Technologies
+- NIST SP 800-30 concepts
+- Database security controls
 -  Threat Sources
 -  Threat Events
 -  Likelihood
@@ -26,3 +28,6 @@ A vulnerability assessment was performed using concepts from NIST SP 800-30 Rev 
 ## Outcome
 
 This assessment identified critical risks associated with exposing a database server to the public internet controls to reduce the organization's attack surface.
+
+## Outcome
+The assessment identifies the highest database risks and proposes layered controls. 
