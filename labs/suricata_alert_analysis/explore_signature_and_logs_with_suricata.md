@@ -67,9 +67,9 @@ rev|Rule revision number|
 -----------
 # Running Suricata
 
-Command:
+``` bash 
 sudo suricata -r sample.pcap -S custom.rules -k none
-
+```
 ### Command Options
 
 Option|Purpose|
