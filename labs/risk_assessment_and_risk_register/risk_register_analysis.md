@@ -122,8 +122,14 @@ Risks involving customer data and financial records require the highest priority
 -  Highly sensitive data often produces higher severity scores.
 -  Risk registers provide visibility into organizational risks.
 -  Likelihood and severity are combined to determine overall priority.
+-  Risk scores support prioritization but do not replace business context, regulatory requirements, asset criticality, or professional judgement.
 
-  ## Key Takeaways  Risk scores support prioritization but do not replace business context, regulatory requirements, asset criticality, or professional judgement.  ## Skills Demonstrated  - Risk assessment - Risk scoring - Prioritization - Risk register 
+## Skills Demonstrated
+
+- Risk assessment
+- Risk scoring
+- Prioritization
+- Risk register 
 
 
   
