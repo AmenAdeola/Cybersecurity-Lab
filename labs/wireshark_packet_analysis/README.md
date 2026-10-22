@@ -12,13 +12,15 @@ The activity focused on examining packet structures, identifying network protoco
 -  Network Monitoring
 -  Traffic Inspection
 -  Protocol Analysis
+-  Display filters
 -  DNS Analysis
 -  HTTP Analysis
 -  Network Investigation
 
-## Technologies Used
+## Tools and Technologies Used
 
 -  Wireshark
+-  PCAP 
 -  IPv4
 -  Ethernet II
 -  TCP
@@ -30,3 +32,6 @@ The activity focused on examining packet structures, identifying network protoco
 ## Outcome
 
 This project demonstrates how packet captures can be analyzed to understand network communications, identify endpoints, investigate DNS resolutions, and support security investigations.
+
+
+ 
