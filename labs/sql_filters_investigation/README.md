@@ -6,57 +6,68 @@ This project demonstrates the use of SQL filters to investigate potential securi
 
 Using data stored in the 'employees' and 'log-in_attempts' tables, I applied SQL filtering techniques to identify failed login attempts, review suspicious activity, retrieve records from specific departments, and support security-related decision making.
 
+
 ## skills demonstrated
 
 -  SLQ Querying
 -  Data Retrieval
 -  Data Filtering
 -  Security Investigations
+-  Logical operators
 -  Access Monitoring
 -  Log Analysis
 -  SQL Pattern Matching
 -  Cybersecurity Data Analysis
 
-## SQL Concepts Used
+## Tools and Technologies
 
--  Select
--  From
--  Where
--  And
--  Or
--  Not
--  Like
+- SELECT
+- WHERE
+- AND
+- OR
+- NOT
+- LIKE 
 -  %
 -  Limit
 
 ## Investigation Tasks
 
 ### Retrieve After-Hours Failed
-Login Attempts
 
-Identify unsuccessful login attempts that occurred after business hours.
+1. Login Attempts
+2. Identify unsuccessful login attempts that occurred after business hours.
 
 ### Retrieve Login Attempts on Specific Dates
 
 Investigate login activity that occurred during a suspicious time period
 
+
 ### Retrieve Login Attempts Outside of Mexico
 
 Filter authentication activity based on geographic location.
+
 
 ### Retrieve employees in Marketing
 
 Identify employees who require a security update.
 
+
 ### Retrieve Employees in Finance or Sales
 
 Identify users from multiple business units.
+
 
 ### Retrieve Employees Not in Information Technology
 
 Determnine systems that still require updates outside the IT department.
 
+
 ## sample Query
 
 '''sql
 Select * from log_in_attempts where login_time >v'18:00:00' and sucess = o
+
+
+## Outcome
+
+The queries isolate records relevant to investigations, access reviews, and security operations. 
