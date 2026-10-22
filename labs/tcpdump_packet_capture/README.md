@@ -25,3 +25,4 @@ The activity focuses on identifying network interfaces, capturing network packet
 ## Outcome
 
 This project demonstrated how a security analyst can capture, inspect, and filter network traffic to support investigations, threat hunting, and incident response activities.
+
