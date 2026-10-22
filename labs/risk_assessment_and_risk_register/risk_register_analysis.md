@@ -1,10 +1,15 @@
+
 # Risk Register Analysis
+
+## Overview
+
+This project evaluates threat scenarios using likelihood and severity and records them in a risk register
 
 ## Objective
 
-Perform a risk assessment for a commercial bank and prioritize potential risks affecting the bank's funds.
+Perform a risk assessment for a commercial bank and prioritize potential risks affecting the bank's funds. Assess risks and create a register that supports prioritization and remediation. 
 
-------------
+-------------------------------------
 
 ## Operational Environment
 
@@ -17,7 +22,8 @@ Key characteristics include:
 -  Strict financial regulations
 -  Dependence on third-party organizations and suppliers
 
-----------
+------------------------------
+## Risk Formula  ```text Likelihood × Severity = Risk score ``` 
 
 ## Risk Assessment Summary 
 
@@ -29,7 +35,7 @@ Financial Records Leak |3|3|9
 Theft |1|3|3
 Supply Chain Disruption|1|2|2
 
------
+---------------------------
 
 ## Risk Analysis
 
@@ -43,7 +49,7 @@ Assessment:
 -  Moderate impact
 
 Priority Score: 4
------
+-------------------------------
 
 ### Compromised User Database
 Description: Customer data is poorly encrypted.
@@ -58,10 +64,10 @@ Potential consequences:
 -  Unauthorized disclosure of customer information
 -  Regulatory penalties
 -  Loss of customer trust
-----------
+----------------------------------------
 
 ### Financial Records Leak
-Description; A backup database server is publicly accessible.
+Description: A backup database server is publicly accessible.
 
 Assessment: 
 -  High likelihood
@@ -74,7 +80,7 @@ Potential consequences:
 -  Regulatory fines
 -  Reputational damage
 -  Loss of customers
--------------
+---------------------------------------
 
 ### Theft
 Description: The bank's safe is left unlocked.
@@ -87,7 +93,7 @@ Priority Score: 3
 
 Reasoning: Although theft could have a significant financial impact, the likelihood is reduced because the bank operates in an area with low crime rates
 
-----------
+----------------------------
 
 ### Supply Chain Disruption
 Description: Natural disasters delay deliveries.
@@ -100,7 +106,7 @@ Priority Score: 2
 
 Reasoning: The coastal location increases exposure to hurricanes and severe weather events, but such disruption occur infrequently
 
---------
+--------------------------------
 
 ## Notes
 
@@ -116,3 +122,8 @@ Risks involving customer data and financial records require the highest priority
 -  Highly sensitive data often produces higher severity scores.
 -  Risk registers provide visibility into organizational risks.
 -  Likelihood and severity are combined to determine overall priority.
+
+  ## Key Takeaways  Risk scores support prioritization but do not replace business context, regulatory requirements, asset criticality, or professional judgement.  ## Skills Demonstrated  - Risk assessment - Risk scoring - Prioritization - Risk register 
+
+
+  
