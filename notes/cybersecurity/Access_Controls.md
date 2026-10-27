@@ -1,23 +1,35 @@
-# Authentication, Authorization & Accounting (AAA)
+# Access Controls  
 
-Concept | Definition|
---------|-----------|
-Authentication | Verifying a user's identity
-Authorization | Determining what a user is allowed to do
-Accounting | Recording and monitoring user activity
-Access Control | Security measures that regulate access to resources
-Principle of Least Privilege | Users receive only the minimum access required
+## Purpose
 
-## Authentication
+Access controls limit who or what can access systems, applications, and data.
 
-Concept | Definition|
---------|-----------|
-Authentication | Verifying identity before granting access
-Username | User identifier
-Password | Authentication factor
-MFA | Multi-factor authentication
+## AAA Framework
 
-## Authorization
+| Concept | Purpose | Example |
+|---|---|---|
+| Authentication | Verify user's identity | Password, MFA, certificate |
+| Authorization | Determine permitted actions | Read-only access, administrator role |
+| Accounting | Record, monitoring  and review activity | Event logs, audit trails, user activity monitoring |
+
+
+## Authentication Concepts
+
+| Concept | Description |
+|---|---|
+| Username | Claimed identity |
+| Password | Knowledge factor |
+| MFA | Two or more different authentication factors |
+| OAuth | Delegated authorization framework |
+| SSO | One authentication session for multiple applications |
+| Digital certificate | Cryptographic proof used to establish identity or trust |
+
+## Authorization Models
+
+- RBAC: Role-Based Access Control, access based on the person’s role.
+- ABAC: access based on attributes such as department, device, time, or location.
+- DAC: the resource owner determines access.
+- MAC: access is controlled by centrally defined labels and policy.
 Concept | Definition|
 --------|-----------|
 Authorization | Determines what actions a user can perform
@@ -32,6 +44,26 @@ Accounting | Logging and monitoring activity
 Event Log | Record of events
 Audit Trail | Historical record of actions
 User Activity Monitoring | Tracking user behaviour
+
+## Core Principles
+
+- Least privilege
+- Need to know
+- Separation of duties
+- Deny by default
+- Regular access reviews
+- Immediate removal of obsolete access
+- Time-limited privileged access
+
+## Example Access Review Questions
+
+- Does the user still require the account?
+- Does the role still justify the permissions?
+- Are privileged accounts separate from daily accounts?
+- Are inactive accounts disabled?
+- Are temporary permissions expired?
+- Are access changes logged and approved? 
+
 
 ## Authentication & Authorization 
 Concept | Purpose|
