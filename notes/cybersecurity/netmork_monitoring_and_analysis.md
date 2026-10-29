@@ -27,7 +27,8 @@ Support Threat Hunting | Search indicators of compromise
 
 ## Network Traffic Analysis Workflow
 
-```Network -> Traffic Capture -> Packet Inspection -> Traffic Analysis -> Anomaly Detection -> Incident Investigation -> Response
+```
+Network -> Traffic Capture -> Packet Inspection -> Traffic Analysis -> Anomaly Detection -> Incident Investigation -> Response
 ``` 
 
 OR 
