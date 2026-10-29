@@ -1,4 +1,8 @@
-# Definition
+# Social Engineering 
+
+## Definition
+
+Social engineering manipulates people into revealing information, performing an action, or granting access.
 
 Concept| Definition|
 -------|-----------|
@@ -106,3 +110,21 @@ Personalized attack | Spear Phishing
 Fake Scenario to obtain information | Pretexting
 Malicious USB drive |Baiting
 Offer of help for information | Quid PRo Quo
+
+ ## Additional Warning Signs
+ - Urgent or threatening language
+ - Unexpected attachments
+ - Suspicious sender domain
+ - Mismatched links
+ - Requests for credentials or sensitive information
+ - Unusual payment or gift-card requests
+ - Impersonation of a trusted person
+ 
+## Response
+- Do not click, reply, or open attachments.
+- Verify through a trusted independent channel.
+- Report using the approved process.
+- Preserve the message and headers.
+- Reset credentials if they were disclosed.
+- Escalate when execution or compromise is suspected. 
+
