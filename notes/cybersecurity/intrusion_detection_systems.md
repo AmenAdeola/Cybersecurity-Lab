@@ -8,6 +8,14 @@ HIDS (Host-Based Intrusion Detection System)|Monitors activity on a single host 
 NIDS (Network-Based Intrusion Detection System) | Monitors traffic across a network segment|Detect malicious network activity|
 IPS (Intrusion Prevention System)|Detects and blocks malicious activity | Prevent attacks in real time
 
+## IDS and IPS
+| Technology | Function |
+|---|---|
+| IDS | Detects activity and generates alerts |
+| IPS | Detects and blocks or prevents activity |
+| HIDS | Monitors an individual host |
+| NIDS | Monitors network traffic |
+
 ### HIDS (Host-based IDS)
 Definition: 
 Monitors activity occurring on individual hosts or endpoints.
@@ -77,10 +85,22 @@ Advantages:
   -  Cannot detect unknown attacks
   -  Cannot detect zero-day threats
 
+## Detection Methods
+
+### Signature-Based Detection
+- Matches known patterns.
+- Effective for known threats.
+- Requires updated signatures.
+- May miss new or modified behaviour.
+
 ### Anomaly-based Analysis
 
 Definition: Detects activity that deviates from normal behavior
 Process: Normal Baseline -> Unusual Activity -> Anomaly Detected -> Alert Generated
+- Compares activity with a baseline.
+- Can identify unexpected behaviour.
+- May detect unknown threats.
+- Can produce more false positives.
 
 Examples:
 Activity| Detection|
@@ -89,7 +109,6 @@ Unusual login location|Anomaly
 Sudden data transfer spike| Anomaly
 Unexpected network connections |Anomaly
 Rare process execution | Anomaly
-
 
 Advantages:
 -  Can identify unknown threats
@@ -142,6 +161,21 @@ pass| Allow Traffic
 drop | Block traffic and alert
 reject | Block traffic and send reset
 
+## Suricata Rule Anatomy
+```text
+alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"GET on wire"; flow:established,to_server; content:"GET"; http_method; sid:12345; rev:3;)
+```
+| Element | Purpose |
+|---|---|
+| alert | Action |
+| http | Protocol |
+| source and destination | Traffic scope |
+| msg | Alert message |
+| flow | Connection state and direction |
+| content | Pattern to match |
+| sid | Signature ID |
+| rev | Rule revision |
+
 ### Important Suricata Fields
 
 Field | Purpose|
@@ -153,11 +187,10 @@ content|Text pattern
 flow|Traffic direction
 http_method|HTTP method inspection
 
-### Suricata Logs
-Log File|Purpose|
---------|-------|
-fast.log|Quick alert summaries
-eve.json|Details structured events
+## Suricata Logs
+- `fast.log`: short human-readable alerts
+-  `eve.json`: detailed structured events
+-  `flow_id`: correlates events from the same flow 
 
 ### jq Commands
 
