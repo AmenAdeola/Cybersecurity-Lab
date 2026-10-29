@@ -1,4 +1,4 @@
-# Network Monitoring and Analysis
+  # Network Monitoring and Analysis
 
 ## Definitions
 
@@ -25,10 +25,16 @@ Investigate incidents| Analyze malicious communications
 Establish Baseline | Understand normal traffic patterns
 Support Threat Hunting | Search indicators of compromise
 
-
 ## Network Traffic Analysis Workflow
 
-Network -> Traffic Capture -> Packet Inspection -> Traffic Analysis -> Anomaly Detection -> Incident Investigation -> Response
+```Network -> Traffic Capture -> Packet Inspection -> Traffic Analysis -> Anomaly Detection -> Incident Investigation -> Response
+``` 
+
+OR 
+
+```text
+Network activity → Traffic Capture → Packet Inspection → Compare with baseline → Detect anomaly → Investigate → Respond
+```
 
 ## Network Protocol Analyzers
 
@@ -73,9 +79,9 @@ Examples:
 Protocol | Purpose|
 ---------|--------|
 IPv4| Internet commnunication
-TCP | Reliable communications
-UDP | Fast connectionless commnunications
-ICMP| Ping requests and responses
+TCP | Reliable transport, communications
+UDP | Fast connectionless transport, commnunications
+ICMP| Ping requests and responses; Network diagnostics
 DNS| Domain name resolution
 HTTP| Web traffic
 HTTPS| Secure web traffic
@@ -109,7 +115,7 @@ DNS Query | opensource.google.com
 HTTP Request| GET request
 ICMP Traffic | Ping request
 
-## Data Exfiltration
+## Data Exfiltration 
 
 Definition
 Unauthorized movement of sensitive information outside an organization
@@ -126,7 +132,16 @@ Indicator | Example
 Large outbound transfers| Unusual volume of network traffic
 Unknown destination IPs|Connections to unrecognized hots
 Suspicious DNS queries | Communication with malicious domains
-Off-hours traffic| Unexpected activity outside business hours
+Off-hours traffic| Unexpected activity outside business hours|
+New cloud services| |
+Unexpected protocols| |
+Repeated beaconing| |
+
+
+## Analyst Context
+
+Traffic is not malicious solely because it is unusual. Consider asset role, user, destination, timing, volume, approved services, and related endpoint evidence. 
+
 
 ## Packet Analysis Process
 
