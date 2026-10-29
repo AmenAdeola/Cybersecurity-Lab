@@ -1,3 +1,4 @@
+
 # Core Concepts
 
  Concept| Definition
@@ -10,6 +11,10 @@ Severity| Impact if the risk occurs
 Priority | Overall risk score based on likelihood and severity
 Risk Register | Document used to track risks and their scores
 
+ ## Basic Scoring
+ ```text
+ Likelihood × Severity = Priority score
+```
 # Relationship Between Concepts
 Asset -> Threat + Vulnerability -> Risk -> Likelihood X Severity -> Priority
 
@@ -34,6 +39,33 @@ Financial Records Leak | Publicly accessible database backup
 Theft | Unlocked safe
 Supply Chain Disruption | Natural disasters affecting deliveries
 
+## Risk Register Fields
+- Asset
+- Threat
+- Vulnerability
+- Likelihood
+- Severity
+- Score
+- Existing controls
+- Recommended treatment
+- Owner
+- Status
+  
+## Example Scale
+| Score | Likelihood | Severity |
+|---:|---|---|
+| 1 | Rare | Low |
+| 2 | Possible or likely | Moderate |
+| 3 | High or expected | High or catastrophic |
+
+## Treatment Options
+- Avoid
+- Mitigate
+- Transfer
+- Accept
+  
+## Important Limitation
+ A numeric score supports prioritization but does not replace business context, legal or regulatory obligations, asset criticality, or professional judgement. 
 # NIST CSF Functions
 
 Functions | Purpose|
