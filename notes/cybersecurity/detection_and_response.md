@@ -8,6 +8,7 @@ Event| Any observable occurrence on a system or network
 Security Event | An event related to security operations
 Security Incident | An event that compromises confidentiality, integrity, or availabiltiy
 Alert| Notification generated when suspicious activity is detected
+Incident | An event that threatens confidentiality, integrity, or availability |
 Indicator of Compromise| Observable evidence of malicious activity
 Detection| Process of identifying suspicious or malicious activity
 Incident Response | Process of managing and mitigating security incidents
@@ -25,17 +26,28 @@ Email received | Phishing attack
 
 Phase | Purpose|
 ------|--------|
-Preparation| Prepare people, tools, and procedures
-Detection and Analysis | Identify and validate incidents
+Preparation| Prepare people, tools,  plans, communication paths and procedures
+Detection and Analysis | Identify, scope, prioritize and validate incidents
 Containment | Limit the impact and spread
-Eradication| Remove the threat
+Eradication| Remove the threat and root cause
 Recovery | Restore systems and operations
-Lessons Learned | Improve future response efforts
+Lessons Learned(Post-incident activity ) | Improve future response efforts, Report, learn
 
 ### incident response workflow
 Event->Alert->Investigation->Incident->Containment->Eradication->Recovery->Lessons Learned
 
+## Documentation
+Record timestamps, evidence sources, findings, actions, decisions, owners, escalation, and lessons learned. 
 
+## Alert Triage Questions
+  - What triggered the alert?
+  - Is the alert a true positive or false positive?
+  - Which users, hosts, accounts, or applications are involved?
+  - What is the asset criticality?
+  - Is activity continuing?
+  - What evidence supports escalation?
+  - What playbook applies?
+   
 ## Incident Response Teams
 
 Role | Responsability|
@@ -47,7 +59,6 @@ System Administrator | Performs containment and recovery activities
 Legal Team | Ensures legal and regulatory compliance
 Communications Team | Handles internal and external communications
 Management | Makes business decisions
-
 
 ## Incident Response Plan
 
