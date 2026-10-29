@@ -1,3 +1,7 @@
+# Attack Surface and Attack Vectors
+
+## Definitions
+
 # Attack surface & attack vectors
 
 Concept | Definition | Example |
@@ -9,6 +13,15 @@ Payload| Malicious software or code delivered through an attack vector
 Social Engineering |Manipulation people into revealing information | Phishing email
 USB Baiting | Leaving infected USB devices where targets may find them | Parking lot USB attack
 
+
+## Attack Surface Categories
+- Network: open ports, exposed services, remote access
+- Application: login forms, APIs, file uploads, input fields
+- Human: phishing, social engineering, credential reuse
+-  Physical: USB devices, unattended equipment, tailgating
+-  Cloud: public storage, excessive permissions, exposed keys
+
+  
 # USB Security
 
 Risk |Example| 
@@ -56,3 +69,29 @@ Monitor | Reassess continuously
 -  Recognized as a security risk
 -  Independent of other issues
 -  Associated with a single codebase/source code origin
+
+ ## Common Attack Vectors
+-  Phishing attachment or link
+- Stolen or weak credentials
+-  Malware
+-  Unpatched software
+-  Misconfiguration
+-  SQL injection
+-  Malicious USB device
+-  Insider misuse
+
+## Reduction Strategies
+-  Remove unnecessary services.
+- Patch systems.
+- Enforce MFA.
+- Validate input.
+- Apply least privilege.
+- Segment networks.
+- Monitor important activity.
+- Train users.
+- Restrict removable media.
+
+## Security Chain
+```text
+ Threat actor → Attack vector → Exploited vulnerability → Compromised asset → Business impact → Security control
+```
