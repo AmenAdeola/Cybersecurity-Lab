@@ -1,3 +1,5 @@
+# Linux Commands Cheat Sheet
+
 # Package Management (APT, Advanced Package Tool)
 
 Command | Purpose | Example Result |
@@ -21,6 +23,80 @@ apt search <packages> | search available packages|
 sudo apt install <packages> | install a package|
 sudo apt remove <packages>| remove a package|
 suricata|IDS/IPS detect and prevent network threats
+
+
+## Navigation
+```bash
+whoami
+pwd
+ls
+ls -la
+cd
+/path
+cd ..
+cd ~
+```
+## Read Files
+```bash
+cat file.txt
+head file.txt
+head -n 5 file.txt
+tail file.txt
+less file.txt
+```
+## Manage Files and Directories
+
+```bash
+touch report.txt
+mkdir logs
+rmdir empty_folder
+mv source destination
+rm file.txt
+nano report.txt
+```
+
+## Search and Filter
+```bash
+grep ERROR server_logs.txt
+grep -c WARNING server_logs.txt
+grep -i error logs.txt
+ls | grep access
+find . -name "*log*"
+find . -iname "*log*"
+find . -mtime -3
+```
+## Users and Permissions
+```bash
+ls -l
+chmod u=rw,g=r,o= report.txt
+chmod 640 report.txt
+sudo chown analyst1 report.txt
+sudo chgrp security report.txt
+sudo useradd analyst1
+sudo usermod -a -G security analyst1
+sudo userdel analyst1
+```
+## Help
+```bash
+man grep
+whatis chmod
+apropos password
+help cd
+```
+## Integrity and Network
+```bash
+sha256sum file.txt
+cmp file1hash file2hash
+sudo tcpdump -D
+sudo tcpdump -i eth0 -v -c 5
+sudo tcpdump -i eth0 -nn -w capture.pcap
+sudo tcpdump -nn -r capture.pcap -X
+``` 
+
+
+
+
+
 
 
 # Linux commands cheat sheet
