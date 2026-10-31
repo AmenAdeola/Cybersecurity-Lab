@@ -14,7 +14,7 @@ Evil Twin Attack| WI-FI| Create a fake wireless access point that mimics a legit
 Rogue Access Point | WI-FI|Unauthorized wireless access point connected to network.|Bypass of network security controls|
 
 | Attack | Description | Defensive focus | 
-|---|---|---| 
+|--------|-------------|-----------------| 
 | Packet sniffing | Captures network traffic | Encryption, switched networks, secure protocols | 
 | IP spoofing | Forges a source IP address | Ingress/egress filtering, authentication | 
 | MAC spoofing | Impersonates a network interface | Port security, NAC, monitoring | 
