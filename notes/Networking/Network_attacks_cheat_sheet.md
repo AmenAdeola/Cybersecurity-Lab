@@ -13,6 +13,7 @@ DHCP Spoofing | DHCP | Rogue DHCP server provides malicious network settings| Tr
 Evil Twin Attack| WI-FI| Create a fake wireless access point that mimics a legitimate one| Credential theft and traffic interception|
 Rogue Access Point | WI-FI|Unauthorized wireless access point connected to network.|Bypass of network security controls|
 
+
 | Attack | Description | Defensive focus |
 |--------|-------------|-----------------|
 | Packet sniffing | Captures network traffic | Encryption, switched networks, secure protocols |
