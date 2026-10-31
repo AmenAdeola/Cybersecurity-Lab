@@ -12,3 +12,26 @@ DNS Spoofing | DNS| Sends falsified DNS responses to victims| Redirects users to
 DHCP Spoofing | DHCP | Rogue DHCP server provides malicious network settings| Traffic redirection and interception|
 Evil Twin Attack| WI-FI| Create a fake wireless access point that mimics a legitimate one| Credential theft and traffic interception|
 Rogue Access Point | WI-FI|Unauthorized wireless access point connected to network.|Bypass of network security controls|
+
+| Attack | Description | Defensive focus | 
+|---|---|---| 
+| Packet sniffing | Captures network traffic | Encryption, switched networks, secure protocols | 
+| IP spoofing | Forges a source IP address | Ingress/egress filtering, authentication | 
+| MAC spoofing | Impersonates a network interface | Port security, NAC, monitoring | 
+| MITM | Intercepts or alters communication | TLS, certificate validation, secure Wi-Fi | 
+| DNS poisoning | Manipulates name-resolution results | DNSSEC, trusted resolvers, monitoring | 
+| ARP spoofing | Sends false ARP information | Dynamic ARP inspection, segmentation | 
+| Session hijacking | Takes over an authenticated session | Secure cookies, MFA, session controls | 
+| Rogue access point | Unauthorized wireless access point | Wireless monitoring, approved configurations | 
+| Evil twin | Fake Wi-Fi mimics a legitimate network | Certificate validation, VPN, user awareness | 
+| Port scanning | Enumerates open services | Reduce exposed services, detection, filtering |  
+
+
+## Analyst Questions 
+
+- Which hosts communicated?
+- Was the source address expected?
+- Which protocol and port were involved?
+- Did certificates or DNS responses change?
+- Are there repeated authentication or session anomalies?
+- Does packet evidence match endpoint and SIEM evidence?
