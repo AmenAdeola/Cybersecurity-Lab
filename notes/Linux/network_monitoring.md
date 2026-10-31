@@ -1,5 +1,48 @@
 # Networking Monitoring Commands
 
+# Interface Information  
+```bash 
+ifconfig
+ip address
+ip route
+```
+
+## Connectivity  
+```bash 
+ping -c 4 example.com
+curl https://example.com
+```
+
+## tcpdump  
+```bash 
+sudo tcpdump -D
+sudo tcpdump -i eth0
+sudo tcpdump -i eth0 -v -c 5
+sudo tcpdump -nn
+sudo tcpdump port 80
+sudo tcpdump host 192.0.2.10
+sudo tcpdump -i eth0 -nn -w capture.pcap
+sudo tcpdump -nn -r capture.pcap -v
+sudo tcpdump -nn -r capture.pcap -X
+```
+
+## Options  
+
+| Option | Purpose | 
+|---|---| 
+| `-D` | List interfaces | 
+| `-i` | Select interface | 
+| `-c` | Limit packet count | 
+| `-nn` | Disable name and service resolution | 
+| `-w` | Write PCAP | 
+| `-r` | Read PCAP | 
+| `-v` | Verbose output | 
+| `-X` | ASCII and hexadecimal payload |  
+
+## Investigation Use  
+
+Capture only authorized traffic. Preserve PCAP files as evidence and document the interface, filter, command, and capture time. 
+
 Command|Purpose|Example|
 -------|-------|-------|
 ifconfig| Display network interface configuration|ifcongig
