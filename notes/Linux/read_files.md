@@ -1,5 +1,45 @@
 # Read Files 
 
+## cat  
+```bash 
+cat auth.log
+```
+Displays the full file. Best for short files.  
+
+## head  
+```bash 
+head server_logs.txt
+head -n 5 server_logs.txt
+```
+Displays the beginning of a file.  
+
+## tail  
+```bash 
+tail auth.log
+tail -n 20 auth.log
+tail -f application.log
+```
+Displays the end of a file. `-f` follows new entries.  
+
+## less  
+```bash 
+less server_logs.txt
+```
+Useful for large files.  
+
+- `/pattern`: search
+- `n`: next match
+- `q`: quit
+
+## Security Workflow  
+```bash
+head auth.log 
+tail -n 50 auth.log
+grep FAILED auth.log
+less auth.log
+```
+Preserve original log files and avoid commands that overwrite evidence. 
+
 commands | purpose | Example|
 ---------|---------|--------|
 cat | Displays the content of a file |cat updates.txt: Displays the content of the updates.txt file
