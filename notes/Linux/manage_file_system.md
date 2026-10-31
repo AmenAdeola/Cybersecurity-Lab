@@ -1,5 +1,54 @@
 # File & directory management
 
+# Manage the Linux File System
+
+## Create
+
+```bash
+touch report.txt
+mkdir evidence
+mkdir -p investigations/case_001
+```
+
+## Copy
+```bash
+cp report.txt report_backup.txt
+cp -r evidence evidence_backup
+```
+
+## Move or Rename
+```bash
+mv old_name.txt new_name.txt
+mv report.txt reports/
+```
+## Delete
+```bash
+rm report.txt
+rmdir empty_folder
+rm -r folder
+```
+Use recursive deletion carefully.
+
+## Edit  
+```bash
+nano report.txt
+```
+
+## Verify  
+```bash
+ls -la
+pwd
+cat report.txt
+```
+
+## Security Practice
+
+- Confirm the current directory before modifying files.
+- Preserve originals when collecting evidence.
+- Do not overwrite logs without authorization.
+- Validate file ownership and permissions.
+- Use descriptive filenames and controlled storage locations. 
+
 Commands | Purpose | Example Result|
 --------|---------|----------------|
 cp | Copies a file or directory into a new location; the file will not be removed from the previous location | cp permissions.txt /home/analyst/logs: Copies the permissions.txt file from the user's current working directory to the logs directory
