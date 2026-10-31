@@ -7,6 +7,28 @@
 Learn basic Bash shell commands used to generate output, perform calculations, and manage the terminal display.
 
 ------------
+## Lab Workflow 
+
+1. Read the scenario and objectives.
+2. Start the temporary lab environment.
+3. Use only the provided credentials and systems.
+4. Run commands exactly, then inspect the output.
+5. Record what each command does.
+6. Capture only the evidence required for the portfolio.
+7. End the lab session when finished.
+
+## Useful Documentation Pattern  
+```text 
+Task Command Purpose Expected result Observed result Security relevance
+```
+
+## Good Portfolio Practice  
+- Do not publish temporary credentials.
+- Do not publish access tokens.
+- Do not claim fictional lab activity as professional work.
+- Explain lessons learned in original wording.
+- Keep screenshots limited to non-sensitive lab data.
+- Verify that copied commands do not include hidden formatting characters. 
 
 # commands Learned
 
