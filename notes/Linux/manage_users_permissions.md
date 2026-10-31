@@ -1,5 +1,53 @@
 # Manage Users and their Permissions
 
+## Permission String  
+```text
+-rw-r-----
+```
+- First character: file type
+- Characters 2–4: owner
+- Characters 5–7: group
+- Characters 8–10: others
+
+
+## Permission Values  
+
+| Permission | Symbol | Numeric value |
+|---|---|---:|
+| Read | r | 4 | 
+| Write | w | 2 | 
+| Execute | x | 1 |  
+
+## Inspect  
+```bash 
+ls -l
+ls -la
+```
+## Change Permissions  
+```bash
+chmod u=rw,g=r,o= report.txt
+chmod 640 report.txt
+chmod o-r secret.txt
+```
+## Ownership  
+```bash 
+sudo chown analyst1 report.txt
+sudo chgrp security report.txt
+```
+
+## Users and Groups  
+```bash
+sudo useradd analyst1
+sudo usermod -a -G security analyst1
+sudo userdel analyst1
+sudo groupadd security
+sudo groupdel tempgroup
+```
+
+## Principle  
+Permissions should follow least privilege and be verified after every change. 
+
+
 Command | Purpose | Example
 --------|---------|--------
 chmod | Changes/modify permissions on files and directories | chmod u+rwx,g+rwx,o+rwx login_sessions.txt: Changes user (u), group (g), and other (o) permissions to add (+) read (r), write (w), and execute (x) permissions for the login_sessions.txt file; chmod g-rw bonuses.txt: Changes the group (g) permissions to remove (-) read (r) and write (w) permissions for the bonuses.txt file; chmod u=r,g=r,o=r login_sessions.txt: Changes user (u), group (g), and other (o) permissions to assign (=) read (r) permissions for the login_sessions.txt file
