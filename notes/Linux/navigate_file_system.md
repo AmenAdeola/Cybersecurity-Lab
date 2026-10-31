@@ -1,5 +1,43 @@
 # Navigate the File System
 
+## Core Commands  
+
+```bash 
+whoami
+pwd
+ls
+ls -l
+ls -la
+cd /var/log
+cd ..
+cd ~
+```
+
+## Symbols  
+| Symbol | Meaning |
+|---|---| 
+| `/` | Root directory | 
+| `~` | Current user home directory | 
+| `.` | Current directory | 
+| `..` | Parent directory |  
+
+## Examples  
+```bash
+cd /home/analyst/reports
+pwd
+ls -la
+cd ../logs
+```
+
+## Analyst Workflow  
+
+1. Confirm identity with `whoami`.
+2. Confirm location with `pwd`.
+3. List files with `ls -la`.
+4. Move deliberately using `cd`.
+5. Reconfirm location before deleting, moving, or changing permissions. 
+
+
 Command | Purpose | Example
 --------|---------|-------|
 cd | Navigates between directories| cd reports : Navigates from the current working directory to its subdirectory reports; cd /home/analyst/reports: Navigates to the reports directory; the full path is required when reports is not a subdirectory of the current working director; cd .. : Navigates to the directory that is one level above the current working directory
