@@ -1,4 +1,4 @@
-# Certifications 
+# 🎓  Certifications 
 
 This directory contains professional certifications and credentials supporting my transition from application support into cybersecurity.
 
