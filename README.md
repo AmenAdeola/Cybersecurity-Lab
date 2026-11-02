@@ -2,15 +2,14 @@
 
 ## 👨‍💻 Professional Profile  
 
-Application Support Analyst in financial and insurance, with more than 5 years of experience in incident management, technical troubleshooting, functional analysis, SQL, production support, and continuous improvement within the insurance industry.
+Application Support Analyst with more than 5 years of experience in financial and insurance industry in incident management, technical troubleshooting, functional analysis, SQL, production support, and continuous improvement within the insurance industry.
 I completed the Google Cybersecurity Certificate and developed hands-on skills through practical cybersecurity labs covering incident response, network security, intrusion detection, threat analysis, Linux, SQL, and Python security automation.
 
 I am currently pursuing opportunities in:
 - Cybersecurity Analysis
-- SOC Analysis (L2, L3)
+- SOC Analysis 
 - Identity and Access Management (IAM)
 - Information Security
-- Red Team
 
 ----------------------------------
 
@@ -193,7 +192,7 @@ Hands-on training covering:
 
 # 🎯 Career Objective
 
-My immediate goal is to transition into my first dedicated cybersecurity position, particularly as a Cybersecurity Analyst, SOC Analyst (L2-L3), IAM Analyst, or Information Security Analyst or in a red team.
+My immediate goal is to transition into my first dedicated cybersecurity position, particularly as a Cybersecurity Analyst, SOC Analyst, IAM Analyst, or Information Security Analyst.
 
 I aim to combine my existing application-support experience, incident-investigation background, analytical skills, and cybersecurity training while continuing to develop practical security expertise.
 
